@@ -1,17 +1,8 @@
-import sqlite3
-import csv
+import shared_functions as sf #get_records()
 import datetime
+import csv
 
-def get_records(query):
-    output = []
-    db_conn = sqlite3.connect(r'db\yangcodb')
-    cursor = db_conn.cursor()
-    result = cursor.execute(query)
-    output = result.fetchall()
-    db_conn.close()
-
-    return output
-
+#function for generating the csv file
 def create_output(records):
     current_datetime = datetime.datetime.now()
     timestamp = current_datetime.strftime('%Y%m%d%H%M%S')
@@ -31,7 +22,7 @@ def create_output(records):
             })
 
 def main():
-    records = get_records('''
+    records = sf.get_records('''
         select
             c.customer_id,
             c.age,
@@ -44,10 +35,7 @@ def main():
         group by c.customer_id, c.age, i.item_name
         order by c.customer_id, o.quantity
     ''')
-
     create_output(records)
-    
+
+#execution
 main()
-    
-
-
