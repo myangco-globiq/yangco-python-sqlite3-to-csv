@@ -1,5 +1,5 @@
 # yangco-sqlite3-to-csv
-Retrieve records from sqlite3 then put data in a csv file
+Retrieve records from sqlite3 database then put data in a csv file
 
 ## File directory overview
 <img width="433" height="530" alt="image" src="https://github.com/user-attachments/assets/5a23d5c8-32ec-4c7c-88e5-3ef6a29b8a00" />
