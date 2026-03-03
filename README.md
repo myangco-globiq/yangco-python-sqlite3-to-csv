@@ -18,9 +18,12 @@ Execute command ```rollback_script.sql``` to drop the tables
 3. Execute ```python python_only.py``` for getting the results without using pandas. Output file sample screenshot:
 <img width="508" height="54" alt="image" src="https://github.com/user-attachments/assets/634fa48a-4642-4093-80ea-d3e6b374f20d" /> 
 
-4. Execute ```python python_pandas.py``` for getting the results using pandas. Output file sample screenshot:
+4. Execute ```python python_pandas.py``` for getting the results using pandas for exporting csv file and using traditional way for getting the records from database. Output file sample screenshot:
 <img width="533" height="63" alt="image" src="https://github.com/user-attachments/assets/7fdcf59d-3662-4225-a806-3ed85f47af2a" />
 
+5. Execute ```python python__full_pandas.py``` for getting the results using only pandas for both getting the records and exporting csv.
+
+<img width="367" height="41" alt="image" src="https://github.com/user-attachments/assets/9feccc29-966a-4ed5-83e6-299879351dcc" />
 
 
    
