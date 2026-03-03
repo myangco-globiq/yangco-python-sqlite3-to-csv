@@ -23,7 +23,8 @@ Execute command ```rollback_script.sql``` to drop the tables
 
 5. Execute ```python python__full_pandas.py``` for getting the results using only pandas for both getting the records and exporting csv.
 
-<img width="367" height="41" alt="image" src="https://github.com/user-attachments/assets/9feccc29-966a-4ed5-83e6-299879351dcc" />
+<img width="592" height="54" alt="image" src="https://github.com/user-attachments/assets/ee28e9c6-9f01-4ced-b938-95fedcf27310" />
+
 
 
    
